@@ -6,13 +6,17 @@
 ### Ecosystem Specification & Architecture Overview
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0-magenta.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.1-magenta.svg)](CHANGELOG.md)
 [![Documentation](https://img.shields.io/badge/docs-complete-brightgreen.svg)](docs/)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
 **Symbolic · Technical · Foresight Ecosystem**
 
-[📖 Documentation](#documentation) • [🎯 Modules](#aal-module-constellation) • [🔮 Standards](#symbolic-standards) • [🤝 Contributing](docs/governance/contribution-guidelines.md)
+[📖 Documentation](#documentation) • [🎯 Modules](#aal-module-constellation) • [🔮 Standards](#symbolic-standards) • [📜 Canon](canon/) • [🤝 Contributing](docs/governance/contribution-guidelines.md)
+
+**Version:** 1.1
+**Maintainer:** Daniel K. Meyer / Applied Alchemy Labs
+**License:** MIT
 
 </div>
 
@@ -22,32 +26,35 @@
 
 This repository defines the **AAL Ecosystem Specification**: a public, high-level description of the conceptual, symbolic, and technical architecture of Applied Alchemy Labs.
 
-### Core Functions
+### Five Core Functions
 
 <table>
 <tr>
 <td width="50%">
 
-**🔐 Intellectual Authorship**
-Establish conceptual authorship of AAL frameworks, terminology, and system design
+**🔐 Conceptual Authorship**
+Establish conceptual authorship of AAL frameworks, terminology, doctrines, and system design
 
 **📚 Unified Reference**
-Provide a single source of truth for all modules and their interoperability
+Provide a unified reference for all AAL modules and their interoperability
+
+**📜 Canonical Standards**
+Publish and version binding canonical documents governing system behavior
 
 </td>
 <td width="50%">
 
 **🌱 Open Foundation**
-Offer a stable foundation for future open-source contributions
+Offer a stable foundation for future open-source contributions and documentation
 
-**⏰ Timestamped Publication**
-Protect intellectual footprint through explicit licensing
+**⏰ Intellectual Protection**
+Protect the intellectual footprint of AAL through timestamped publication and explicit licensing
 
 </td>
 </tr>
 </table>
 
-> **Note:** This repo contains **documentation only** — no proprietary code, credentials, or production pipelines.
+> **Note:** This repository contains **documentation only** — no proprietary code, credentials, heuristics, model weights, or production pipelines.
 
 ---
 
@@ -71,17 +78,17 @@ graph TD
 
 </div>
 
-### 💎 Core Thesis
-
-> **"Meaning, prediction, creativity, and intelligence are all expressions of the same deeper coherence structure."**
-
 AAL operates as a **constellation of interoperable modules**, all compatible with AAL-Core and the ABX-Runes symbolic computation layer.
+
+### 💎 Guiding Thesis
+
+> **"Meaning, prediction, creativity, and intelligence are expressions of a shared underlying coherence structure that can be modeled, constrained, and executed."**
 
 ---
 
 ## 🏗️ Core Architectural Principles
 
-### 🎛️ Modular Eurorack Architecture
+### 🎛️ 1. Modular Eurorack Architecture
 
 ```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -93,22 +100,31 @@ AAL operates as a **constellation of interoperable modules**, all compatible wit
                        Schema
 ```
 
-- ✅ Systems are separate processes, not monoliths
-- ✅ Each module exposes clear input/output ports
-- ✅ Everything interoperates through shared schema
-- ✅ Adding complexity must reduce entropy
+All AAL modules follow a Eurorack-style modular design philosophy:
 
-### 🔒 ABX-Core Hardening
+- ✅ Systems are separate processes, not monoliths
+- ✅ Each module exposes explicit input/output ports
+- ✅ Interoperability through shared schema (ResonanceFrame)
+- ✅ Added complexity must reduce entropy or improve efficiency
+
+---
+
+### 🔒 2. ABX-Core Hardening
 
 | Principle | Description |
 |-----------|-------------|
 | **Deterministic Execution** | Predictable behavior where possible |
 | **Provenance Embedding** | Track data origins and decisions |
 | **Typed Op-Checks** | Validate inputs and outputs |
+| **Capability Sandboxing** | Limited, defined permissions |
 | **Golden Tests** | Ensure consistency over time |
-| **Entropy Reduction** | Complexity must justify itself |
+| **Measured Complexity** | Reductions in compute, time, cost, or entropy |
 
-### 🌱 SEED Framework
+---
+
+### 🌱 3. SEED Framework Enforcement
+
+The default operating posture across AAL emphasizes:
 
 <table>
 <tr>
@@ -119,9 +135,18 @@ AAL operates as a **constellation of interoperable modules**, all compatible wit
 </tr>
 </table>
 
-### 🔮 ABX-Runes Symbolic Engine
+- Intention clarity
+- Deterministic boundaries
+- Entropy minimization
+- Symbolic coherence
+- Reliable provenance
+- Predictable behavior across modules
 
-A shared symbolic interpreter powering all AAL modules:
+---
+
+### 🔮 4. ABX-Runes Symbolic Engine
+
+ABX-Runes is a shared symbolic interpreter powering all AAL modules:
 
 ```
 ┌──────────────────────────────────────┐
@@ -132,6 +157,53 @@ A shared symbolic interpreter powering all AAL modules:
 │  Layer 1: In-Process JIT             │
 └──────────────────────────────────────┘
 ```
+
+**Capabilities:**
+- Forecasting
+- Narrative-semiotic modeling
+- Emotional vectors
+- Runic overlays
+- Sigil generation
+- Cross-module symbolic transmission
+
+---
+
+### 📜 5. AAL Modular Design Doctrine (Binding Canon)
+
+> **NEW IN v1.1:** AAL's generative, musical, and symbolic systems are governed by a versioned canonical doctrine.
+
+**[AAL Modular Design Doctrine v1.0](canon/modular-design-doctrine-v1.0.md)**
+
+This doctrine establishes **binding laws** including:
+
+<table>
+<tr>
+<td width="50%">
+
+**Symbolic & Magical Layer:**
+- 🎵 Music as operative symbolic action
+- 🔮 Ritual lifecycle enforcement (PREP → THRESHOLD → PEAK → RELEASE → SEAL)
+- 🔐 Mandatory sealing and termination semantics
+- 🌊 Space as first-class modulatable process
+- 🎲 Bounded chaos (intent first, chaos gated)
+- ♾️ Bounded infinity (feedback with containment)
+
+</td>
+<td width="50%">
+
+**Execution & Network Layer:**
+- 📐 Symbolic templating without semantic loss
+- 🧮 Containment complexity budgets
+- ⏸️ Suspension as operation (freeze/mute/block)
+- 🚫 Forbidden interactions (constraint graphs)
+- ⚖️ Pareto-based design tradeoffs
+- 👥 Multi-user agency readiness
+
+</td>
+</tr>
+</table>
+
+**This doctrine binds:** BeatOven, PatchHive, Abraxas overlays, and all future generative instruments.
 
 ---
 
@@ -148,19 +220,22 @@ A shared symbolic interpreter powering all AAL modules:
 
 **The Symbolic Intelligence Kernel**
 
-Primary functions:
-- 🔍 Analyze coherence vs. drift in narratives and systems
+Abraxas is the primary symbolic intelligence layer, designed to:
+
+- 🔍 Analyze coherence vs. drift in narratives, data streams, and systems
 - 🌊 Detect memetic vectors and "meme weather" patterns
 - 🔮 Forecast events and symbolic trajectories
 - 📜 Generate daily oracles and aesthetic forecasts
 - 🎯 Provide meaning-layer for alignment research
+- ⚙️ Function as the symbolic kernel underlying the AAL ecosystem
 
-**Key Components:**
+**Key Sub-Components:**
 - Oracle Layer (daily, tactical, strategic)
 - Symbolic Resonance Engine
 - Meme-Weather Engine
-- ABX-Runes Integration
-- ERS Scheduler
+- ABX-Runes Integration Layer
+- ERS Scheduler (runtime orchestration)
+- Adaptive symbolic overlays
 
 [📖 Full Documentation](docs/modules/abraxas.md) · [🏗️ Architecture](docs/architecture/abraxas-kernel.md)
 
@@ -171,13 +246,15 @@ Primary functions:
 
 **Sports Forecasting & Parlay Engine**
 
-- 🎯 Parlay optimizers for multi-leg tickets
-- 🏀 Mixed-sport hybrid forecasting
-- 📊 Rolling-window analytics
-- 🎢 Ladder and streak bet modeling
-- 🔮 Symbolic overlays from Abraxas
+HollerSports features:
 
-**Risk Templates:** Conservative · Balanced · Aggressive
+- 🎯 Parlay optimizers
+- 🏀 Mixed-sport hybrid forecasting
+- 📊 Rolling-window analytics and outcome tracking
+- 🎢 Ladder and streak modeling
+- 🔮 Abraxas symbolic overlays (momentum, pressure, narrative vectors)
+- 📈 Conservative / Balanced / Aggressive parlay templates
+- 💹 Bettor Console format with simulated ROI %, hit rate, and per-leg probabilities
 
 [📖 Full Documentation](docs/modules/hollersports.md)
 
@@ -188,10 +265,19 @@ Primary functions:
 
 **Psycho-Sonic Generative System**
 
-- 🎭 Extract emotional vectors from music
-- 🎹 Generate stems, MIDI, and CV/Gate
-- 🌊 Map emotional resonance to sonic structures
-- 🔮 Integrates with Abraxas for symbolic alignment
+> **GOVERNED BY:** [AAL Modular Design Doctrine v1.0](canon/modular-design-doctrine-v1.0.md)
+
+BeatOven is a psycho-sonic generative system that:
+
+- 🎭 Extracts emotional vectors from existing music
+- 🎹 Generates stems, MIDI, and CV/Gate structures
+- 🔮 Compiles symbolic intent into compressed control surfaces (IntentTokens / Sigils)
+- 🔐 Enforces ritualized generation with explicit sealing
+- 🌊 Treats space as a core, modulatable, memory-bearing process
+- 🎛️ Supports constraint graphs, containment budgets, and suspension operations
+- 💫 Aligns emotionally and symbolically with Abraxas
+
+BeatOven serves as a sound-design, scoring, and sonic execution engine across AAL.
 
 [📖 Full Documentation](docs/modules/beatoven.md)
 
@@ -202,11 +288,13 @@ Primary functions:
 
 **Cognitive & Symbolic UI/UX Engine**
 
+PsyFi provides:
+
 - 🗺️ Introspection tools and guided journeys
-- 📊 Symbolic analysis dashboards
-- 🌀 Emotional physics modeling
-- 🎵 BeatOven integration for sonic feedback
-- 🌙 Noctis Engine for dream insights
+- 📊 Symbolic analysis dashboards and maps
+- 🌀 Emotional physics and ritual mechanics modeling
+- 🎵 BeatOven integration for sound-based feedback
+- 🌙 Noctis Engine integration for dream-linked insights
 
 [📖 Full Documentation](docs/modules/psyfi.md)
 
@@ -217,10 +305,16 @@ Primary functions:
 
 **Eurorack Patch Design Platform**
 
-- 📚 Comprehensive modular synth database
-- 🖼️ Visual patch diagram designer
-- 🔮 Runic modulation overlays
-- 📤 Exportable patch configurations
+> **GOVERNED BY:** [AAL Modular Design Doctrine v1.0](canon/modular-design-doctrine-v1.0.md)
+
+PatchHive is a Eurorack-style patch and module design platform that:
+
+- 📚 Maintains comprehensive modular synth database
+- 🖼️ Visualizes patch diagrams
+- 🔮 Overlays runic modulation on CV paths
+- 📤 Exports symbolic, templated patch topologies
+- 🎯 Supports constraint graphs and containment targets
+- 🏗️ Acts as the hardware metaphor and executable topology layer for AAL
 
 [📖 Full Documentation](docs/modules/patchhive.md)
 
@@ -231,11 +325,15 @@ Primary functions:
 
 **Sound-to-Art Minting Engine**
 
+Phonomicon converts sound into visual, symbolically enriched artifacts:
+
 - 🎨 Audio → Visual artifact transformation
-- 🔗 On-chain provenance hashing
+- 🔗 On-chain provenance and manifest hashing
 - 💎 NFT minting with emotional vectors
-- ⚡ GPU-accelerated rendering
-- 🔮 "Proof of Resonance" framework
+- ⚡ Runpod GPU-accelerated rendering
+- 🔮 Emotion-driven symbolic translation
+- ✨ "Proof of Resonance" philosophy
+- 🔒 ABX-Core and SEED principles compliance
 
 [📖 Full Documentation](docs/modules/phonomicon.md)
 
@@ -246,10 +344,13 @@ Primary functions:
 
 **Dream Analysis & Tracking**
 
-- 📝 Symbolic parsing of dream reports
-- 🎴 Sigil and meditation generation
+Noctis Engine provides:
+
+- 📝 Neutral, symbolic parsing of dream reports
+- 🎴 Grounded, profile-tuned interpretation
+- 🔮 Sigil, meditation theme, and ritual suggestions
 - 📖 Grimoire-style archiving
-- 🔮 Abraxas integration for continuity
+- 🧠 Tight integration with Abraxas for symbolic continuity
 
 [📖 Full Documentation](docs/modules/noctis-engine.md)
 
@@ -260,10 +361,13 @@ Primary functions:
 
 **Recovery & Integration System**
 
-- 🧬 Dopamine repair modeling
-- 🌓 Symbolic + biological synthesis
-- 🌙 Noctis integration
+Emberline is a recovery-focused system addressing:
+
+- 🧬 Dopamine and nervous-system repair
+- 🌓 Symbolic + biological model synthesis
+- 🌙 Noctis Engine integration for dream-based recovery
 - 💊 D-LAPS complementary stack
+- 🔄 Ritual- and lifestyle-facing tools
 
 [📖 Full Documentation](docs/modules/emberline.md)
 
@@ -274,17 +378,19 @@ Primary functions:
 
 **Human Performance Ecosystem**
 
+D-LAPS is a human-performance and dopamine-recovery ecosystem including:
+
 **Product Line:**
-- D-LAPS Prime (dopamine recovery)
-- Neuroflux / Metaflux (liposomal)
+- D-LAPS Prime capsules
+- Neuroflux / Metaflux liposomal formulations
 - MetaLean (metabolic support)
 - Pulse (cardiovascular)
 - Cognitive (nootropic)
 
 **Architecture:**
-- Conceptual Lab + Compliance Lab
-- Translation layer for safety
-- Scientific research integration
+- Dual-lab architecture (conceptual + compliance-safe real-world lab)
+- Translation layer from theory to safe application
+- Attached scientific summaries and safety framing
 
 [📖 Full Documentation](docs/modules/d-laps.md)
 
@@ -302,6 +408,7 @@ Primary functions:
 │         (FastAPI Coordination Layer)                 │
 ├──────────────────────────────────────────────────────┤
 │  Module Registry  │  Message Bus  │  Scheduler       │
+│  Ritual Envelope  │  Constraint   │  Budget Layer    │
 └────────┬─────────────────┬─────────────────┬─────────┘
          │                 │                 │
     ┌────▼────┐       ┌────▼────┐      ┌────▼────┐
@@ -315,15 +422,17 @@ Primary functions:
 
 </div>
 
-### Key Components
+### AAL-Core Provides
 
 | Component | Purpose |
 |-----------|---------|
 | **AAL Hub** | FastAPI coordination layer and message bus |
-| **Module Processes** | Independent logical units (Abraxas, Noctis, etc.) |
-| **ResonanceFrame** | Shared schema for symbolic + numeric vectors |
-| **Future Path** | Migration to Rust for performance |
-| **Hardware Target** | Particle Tachyon 5 board deployment |
+| **Module Processes** | Independent logical units (Abraxas, BeatOven, Noctis, PsyFi, PatchHive, etc.) |
+| **ResonanceFrame Schema** | Shared symbolic + numeric vector format |
+| **Ritual Execution Envelope** | Shared lifecycle semantics across modules |
+| **Constraint & Budget Layer** | Forbidden interactions, containment budgets, suspension ops |
+| **Future Migration Path** | Rust-based scheduler/runtime |
+| **Hardware Target** | Particle Tachyon-5 board |
 
 [📖 Architecture Documentation](docs/architecture/)
 
@@ -384,6 +493,15 @@ Standardized symbolic aesthetic predictions
 </tr>
 </table>
 
+### 📜 Additional Binding Standards (v1.1)
+
+- **[AAL Modular Design Doctrine v1.0](canon/modular-design-doctrine-v1.0.md)** 🆕
+- **Constraint Graph Standard** 🆕
+- **Containment Budget Standard** 🆕
+- **Ritual Lifecycle Standard** 🆕
+- **Space Operator Standard** 🆕
+- **Pareto Tradeoff Documentation Guidelines** 🆕
+
 ---
 
 ## 📚 Documentation
@@ -401,6 +519,9 @@ Standardized symbolic aesthetic predictions
 - [Compliance Overview](docs/governance/compliance-overview.md)
 - [Contribution Guidelines](docs/governance/contribution-guidelines.md)
 
+### 📜 Canon (Binding Standards)
+- [AAL Modular Design Doctrine v1.0](canon/modular-design-doctrine-v1.0.md) 🆕
+
 ---
 
 ## 📜 Licensing
@@ -415,6 +536,7 @@ Standardized symbolic aesthetic predictions
 - Framework definitions
 - Module specifications
 - Symbolic standards
+- Canonical doctrines
 - Design patterns
 
 </td>
@@ -438,14 +560,16 @@ Standardized symbolic aesthetic predictions
 
 ## 🤝 Contributing
 
-We welcome contributions that:
+Contributions must:
 
 - ✅ Respect the MIT License
 - ✅ Adhere to ABX-Core and SEED principles
+- ✅ **Comply with the AAL Modular Design Doctrine** 🆕
+- ✅ **Avoid ungated randomness, unsealed generation, or entropy inflation** 🆕
 - ✅ Maintain structural and symbolic coherence
-- ✅ Treat symbolic work as valid research
+- ✅ Treat symbolic research as valid technical work
 
-**Symbolic work** (semiotics, narrative architecture, cultural dynamics, cognitive schemas) is valued equally with technical contributions.
+**Symbolic work** (semiotics, narrative architecture, cultural dynamics, cognitive schemas, emotional physics) is valued equally with technical contributions.
 
 [📖 Full Contribution Guidelines](docs/governance/contribution-guidelines.md)
 
@@ -461,15 +585,16 @@ We welcome contributions that:
 
 | Module | Status | Timeline |
 |--------|--------|----------|
-| AAL-Core scaffolding | 📝 Planning | TBD |
-| Abraxas Kernel docs | 📝 Planning | TBD |
-| PatchHive module index | 📝 Planning | TBD |
-| BeatOven vector spec | 📝 Planning | TBD |
-| Noctis integration guides | 📝 Planning | TBD |
+| **AAL Modular Design Doctrine v1.0** | ✅ Published | v1.1 |
+| AAL-Core scaffolding references | 📝 Planning | TBD |
+| Abraxas Kernel documentation | 📝 Planning | TBD |
+| PatchHive public module index | 📝 Planning | TBD |
+| BeatOven IntentToken & emotional-vector specs | 📝 Planning | TBD |
+| Noctis Engine dream schemas | 📝 Planning | TBD |
 | D-LAPS scientific summaries | 📝 Planning | TBD |
-| Phonomicon pipeline | 📝 Planning | TBD |
+| Phonomicon conceptual pipeline | 📝 Planning | TBD |
 
-> **Note:** Runtime internals (schedulers, opcodes, low-level shims) will remain private.
+> **Note:** Low-level runtime internals remain private.
 
 ---
 
@@ -477,11 +602,11 @@ We welcome contributions that:
 
 <div align="center">
 
-**AAL is a research ecosystem exploring symbolic cognition, computational semiotics, creative tools, and forecasting approaches.**
+**AAL is a research ecosystem exploring symbolic cognition, computational semiotics, creative systems, and forecasting.**
 
 This repository and its contents are provided for **informational, educational, and exploratory purposes**.
 
-🚫 Not medical advice · 🚫 Not financial advice · 🚫 No guaranteed outcomes
+🚫 Not medical advice · 🚫 Not financial advice · 🚫 No guaranteed outcomes · 🚫 No alignment assurances
 
 </div>
 
@@ -499,6 +624,6 @@ Applied Alchemy Labs
 
 ---
 
-<sub>Built with 🔮 by Applied Alchemy Labs · [Documentation](docs/) · [License](LICENSE) · [Changelog](CHANGELOG.md)</sub>
+<sub>Built with 🔮 by Applied Alchemy Labs · [Documentation](docs/) · [Canon](canon/) · [License](LICENSE) · [Changelog](CHANGELOG.md)</sub>
 
 </div>

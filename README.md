@@ -234,13 +234,31 @@ These standards act as the interpretive spine for Abraxas and its descendants.
 
 ---
 
-## 7. Licensing
+## 7. Prompt Asset Registry
 
-### 7.1 License
+AAL enforces **UPED** (Unified Prompt Execution Doctrine) and **COPD** (Canon-Only Prompt Design).
+
+All prompts must:
+- Reference assets by handle (never inline specifications)
+- Declare canonical dependencies in `CANON_ASSETS` sections
+- Follow the Complexity Rule: never duplicate canon
+
+The Prompt Asset Registry (`.aal/prompt_assets/`) contains:
+- Canonical doctrines, rules, and specifications
+- Versioned asset files
+- Executable prompt templates
+
+This ensures prompts remain minimal, deterministic, and maintainable.
+
+---
+
+## 8. Licensing
+
+### 8.1 License
 
 This repository uses the **MIT License** (see `LICENSE`).
 
-### 7.2 What Is Covered
+### 8.2 What Is Covered
 
 This repository covers:
 
@@ -252,7 +270,7 @@ It explicitly does **not** include internal proprietary code, model weights, sec
 
 ---
 
-## 8. Contribution Guidelines (Summary)
+## 9. Contribution Guidelines (Summary)
 
 Contributions are welcome if they:
 
@@ -265,7 +283,7 @@ Symbolic work (semiotics, narrative architecture, cultural dynamics, cognitive s
 
 ---
 
-## 9. Roadmap (Public-Facing)
+## 10. Roadmap (Public-Facing)
 
 Planned public-safe releases:
 
@@ -281,14 +299,14 @@ Runtime internals (schedulers, opcodes, and low-level shims) will remain private
 
 ---
 
-## 10. Disclaimer
+## 11. Disclaimer
 
 AAL is a research ecosystem exploring symbolic cognition, computational semiotics, creative tools, and forecasting approaches.
 Nothing in this repository should be taken as medical advice, guaranteed financial returns, or alignment guarantees.
 
 ---
 
-## 11. Contact
+## 12. Contact
 
 **Daniel K. Meyer**
 Applied Alchemy Labs

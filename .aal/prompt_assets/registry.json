@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "registry_name": "AAL Prompt Asset Registry",
+  "last_updated": "2025-12-25",
+  "assets": {
+    "UPED_v1": {
+      "handle": "UPED_v1",
+      "version": "1.0",
+      "type": "doctrine",
+      "title": "Unified Prompt Execution Doctrine",
+      "file": "AAL-DOCTRINE-UPED-v1.0.md",
+      "description": "Core doctrine for prompt execution: canon-locked, no redundancy, minimal output",
+      "status": "canonical"
+    },
+    "COPD_v1": {
+      "handle": "COPD_v1",
+      "version": "1.0",
+      "type": "doctrine",
+      "title": "Canon-Only Prompt Design",
+      "file": "AAL-DOCTRINE-COPD-v1.0.md",
+      "description": "Prompt design doctrine: reference assets by handle, single delta per prompt",
+      "status": "canonical"
+    },
+    "COMPLEXITY_v1": {
+      "handle": "COMPLEXITY_v1",
+      "version": "1.0",
+      "type": "rule",
+      "title": "Complexity Rule",
+      "file": "AAL-RULE-COMPLEXITY-v1.0.md",
+      "description": "Never duplicate canon; reference single source of truth",
+      "status": "canonical"
+    },
+    "PH_EXPORT_v1": {
+      "handle": "PH_EXPORT_v1",
+      "version": "1.0",
+      "type": "spec",
+      "title": "PatchHive Patch Book Export Specification",
+      "file": "PATCHBOOK-EXPORT-V1.0.md",
+      "description": "Complete specification for PatchHive Global Patch Book export system",
+      "status": "canonical"
+    },
+    "PH_SIGIL_v0_3": {
+      "handle": "PH_SIGIL_v0_3",
+      "version": "0.3",
+      "type": "spec",
+      "title": "PatchBook Sigil System",
+      "file": "PATCHBOOK-SIGIL-SYSTEM-v0.3.md",
+      "description": "Deterministic sigil grammar for patch books: pattern rules and version tracking",
+      "status": "canonical"
+    },
+    "PH_INCLUSION_v1": {
+      "handle": "PH_INCLUSION_v1",
+      "version": "1.0",
+      "type": "spec",
+      "title": "PatchBook Inclusion Modes",
+      "file": "PATCHBOOK-INCLUSION-MODES-v1.0.md",
+      "description": "Edition definitions: what patches/metadata are included",
+      "status": "canonical"
+    },
+    "PH_STYLE_v1": {
+      "handle": "PH_STYLE_v1",
+      "version": "1.0",
+      "type": "spec",
+      "title": "PatchBook Visual Styles",
+      "file": "PATCHBOOK-VISUAL-STYLES-v1.0.md",
+      "description": "Visual presentation modes: typography, layout, color (content-invariant)",
+      "status": "canonical"
+    }
+  }
+}

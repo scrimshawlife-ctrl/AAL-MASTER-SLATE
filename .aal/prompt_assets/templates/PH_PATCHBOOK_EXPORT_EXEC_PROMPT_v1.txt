@@ -1,0 +1,63 @@
+MODE: EXECUTION_ONLY
+CANON: LOCKED
+NO_REDUNDANCY: TRUE
+NO_SCOPE_EXPANSION: TRUE
+OUTPUT_STYLE: MINIMAL
+TOKEN_BUDGET_TARGET: LOW
+
+PROMPT_ROLE: executable
+
+CANON_ASSETS:
+- UPED_v1
+- COPD_v1
+- COMPLEXITY_v1
+- PH_EXPORT_v1
+- PH_SIGIL_v0_3
+- PH_INCLUSION_v1
+- PH_STYLE_v1
+
+TASK:
+Implement the PatchHive Global Patch Book Export System using the existing codebase.
+
+ASSUME:
+All architectural and product decisions are final.
+Do not suggest alternatives.
+Do not redesign.
+Do not explain.
+
+DELTA:
+Implement export UI + backend wiring that exposes:
+- inclusion editions
+- visual style modes
+- deterministic export generation
+- downstream print option (no fork)
+
+FILES TO MODIFY / ADD:
+- backend/export/patchbook/models.py
+- backend/export/patchbook/editions.py
+- backend/export/patchbook/styles.py
+- backend/export/patchbook/layout.py
+- backend/export/patchbook/renderer.py (or existing renderer file)
+- backend/export/patchbook/quote.py
+- frontend/routes/export/patchbook.tsx (or equivalent)
+- frontend/components/EditionSelector.tsx
+- frontend/components/StyleSelector.tsx
+- frontend/components/ExportSummary.tsx
+- frontend/components/ExportMetadata.tsx
+
+RULES:
+- Inclusion editions MUST map exactly to PH_INCLUSION_v1
+- Visual styles MUST map exactly to PH_STYLE_v1
+- Sigils MUST follow PH_SIGIL_v0_3 grammar and constraints
+- Style mode MUST NOT affect content or credit cost
+- Edition MUST affect content and credit cost
+- Export MUST be deterministic and emit content hash + template/sigil versions
+- Printing MUST be downstream and reuse the same PDF artifact
+- No audio generation
+- No placeholders
+- Omit sections cleanly if data is unavailable
+
+OUTPUT:
+Only code blocks.
+One block per file.
+No prose.

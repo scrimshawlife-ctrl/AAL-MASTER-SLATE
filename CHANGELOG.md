@@ -1,5 +1,17 @@
 # AAL Ecosystem – Changelog
 
+## [1.1.2] – 2026-01-02
+### Added
+- Canon diff gate extension for repo scan script and canon ledger updates.
+
+## [1.1.1] – 2026-01-02
+### Added
+- Deterministic repo scan script for append-only master slate ingest.
+
+## [1.1] – 2026-01-02
+### Added
+- Master slate update ledger entry for Abraxas and AAL-core repo deltas plus canon reconciliation.
+
 ## [1.0] – 2025-12-08
 ### Added
 - Initial ecosystem-wide README specification.

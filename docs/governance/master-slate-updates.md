@@ -427,3 +427,320 @@ mkdir -p "$TMP_DIR"
 echo "Wrote: $OUT"
 echo "Updated canon ledger: $CANON_LEDGER"
 ```
+
+---
+
+## 2026-01-02 — Abraxas Canon Extension — TVM as Oracle Skeleton + 2025 External Seed Baseline
+**Status:** CANON-ACTIVE  
+**Effective Date:** 2026-01-02  
+**Scope:** Abraxas Core, Oracle Signal Layer, Semiotic Weather Engine, Slang Engine, Shadow Metrics Framework
+
+### I) Canon Declaration
+The Total Vector Map (TVM) is hereby ratified as the canonical skeleton of all Oracle external-world data.
+
+All world-facing observations, analyses, and year-in-review runs MUST be serialized first as TVM vector frames (V1–V15) prior to any interpretive, narrative, or forecasting overlays.
+
+The TVM defines what Abraxas may observe, how observations are structured, and how change over time is measured. It is a measurement lattice, not a belief system and not a prediction engine.
+
+### II) Oracle Data Structure Law
+The Oracle Signal Layer SHALL treat the TVM as its base schema.
+
+All Oracle outputs MUST conform to the following order of operations:
+1. External observation
+2. TVM vector framing
+3. Metric binding (shadow-only)
+4. ABX-Rune envelope application
+5. Optional downstream interpretation (mode-dependent)
+
+Any output bypassing TVM framing is non-canonical.
+
+### III) Year-in-Review as Seed Event
+Year-in-Review runs are hereby designated as SEED BASELINE EVENTS.
+
+A seed event generates a stable, retroactive dataset that serves as historical substrate for:
+- Code development
+- Visualization
+- Comparative analysis
+- Drift detection
+- Temporal modeling
+
+Seed data is observational, shadow-only, and non-predictive by default.
+
+### IV) 2025 External Baseline Requirement
+The system MUST include a canonical 2025 External Seed Baseline.
+
+This baseline SHALL reside as a discrete dataset (e.g. `year_seed/2025/`) and MUST include:
+- TVM vector scores (V1–V15), explicitly marked inferential where applicable
+- External evidence bundles with provenance
+- Pressure fronts composed from multiple vectors
+- Temporal slang evolution anchors
+- ABX-Rune governance envelopes
+
+The 2025 baseline is the reference year against which future years and sub-annual slices may be compared.
+
+### V) ABX-Runes (Mandatory)
+ABX-Runes are the only legal coupling layer for all seed data.
+
+All seed outputs MUST be wrapped in rune envelopes enforcing:
+- Shadow-only observation
+- Provenance sealing
+- Temporal handling (decay, slope, cycles)
+- Promotion gating
+
+Any seed data not emitted through ABX-Runes is invalid.
+
+### VI) Canon Laws (Additive)
+This update extends, and does not replace, existing canon, including:
+- Dual-Lane Instrumentation & Prediction Principle
+- Shadow ≠ Promotion Law
+- Evidence Beats Symbolism
+- No Moral Skew / No Censorship Inside Inference
+- Complexity Must Pay Rent
+- Deterministic Rerun and Stability Requirements
+
+### VII) Authorized Uses (Immediate)
+With this update, Abraxas is canon-authorized to:
+- Run full external year-in-review analyses
+- Generate semantic weather reports via TVM pressure systems
+- Track slang evolution as a first-class temporal signal
+- Compare years using identical vector baselines
+- Seed historical data for retroactive code and model development
+
+### VIII) Explicit Exclusions
+The TVM and seed baselines do NOT:
+- Predict future events on their own
+- Encode internal Abraxas state
+- Assign moral or political weighting
+- Override governance-approved forecasting modules
+
+### IX) Canon Seal
+This update is sealed as CANON-ACTIVE.
+
+Reconciliation with Notion documentation may occur later but does not affect validity.
+
+The Oracle now has a skeleton.  
+The year 2025 is seeded.  
+The system may build forward without temporal voids.
+
+---
+
+## 2026-01-02 — Abraxas Canon Amendment — Equal-Domain Intake, Non-Exclusion, and Symbolic Cohesion Mandate
+**Status:** CANON-ACTIVE  
+**Effective Date:** 2026-01-02  
+**Scope:** Total Vector Map (TVM), Multi-Domain Analysis (MDA), Oracle Signal Layer, Source Intake Doctrine, Influence Evaluation
+
+### I) Principle Statement
+Abraxas SHALL operate under a strict NON-EXCLUSIONARY INTAKE PRINCIPLE.
+
+No domain of data is privileged, diminished, filtered, or gated on the basis of:
+- Orthodoxy or non-orthodoxy
+- Scientific consensus or lack thereof
+- Cultural legitimacy
+- Mechanistic explainability
+- Perceived plausibility or strangeness
+
+Abraxas does not decide what is real.  
+Abraxas observes what exerts influence, coherence, or recurrence.
+
+### II) Equal-Domain Weighting Law
+All domains—physical, environmental, astronomical, astrological, geomagnetic, linguistic, memetic, symbolic, numerological, mythic, calendrical, ritual, cognitive, or otherwise—are treated as FIRST-CLASS OBSERVATIONAL INPUTS.
+
+Domain weight is determined dynamically and exclusively by:
+- Evidence of influence
+- Correlative strength across vectors
+- Temporal alignment or recurrence
+- Cross-domain symbolic cohesion
+- Synchronicity density
+
+No domain may be deprioritized due to worldview assumptions.
+
+### III) Source Intake Redefinition
+All sources are treated as RAW SIGNAL STREAMS.
+
+Sources are not:
+- Truth claims
+- Causal explanations
+- Belief assertions
+
+They are inputs to pattern detection.
+
+The distinction between “sensor,” “symbol,” and “myth” is analytical, not hierarchical.
+
+### IV) Oracle Function (Clarified)
+The Oracle is explicitly defined as a COHERENCE AND SYNCHRONICITY ENGINE.
+
+Its primary functions are to:
+- Detect alignment across heterogeneous domains
+- Identify symbolic and temporal convergence
+- Map resonance patterns across vectors
+- Track repetition, clustering, and coincidence
+
+The Oracle does NOT, by default:
+- Assert causation
+- Enforce mechanistic explanations
+- Dismiss symbolic or non-material domains
+
+Causation remains a hypothesis.  
+Cohesion and synchronicity are observations.
+
+### V) MDA Application (Updated)
+Multi-Domain Analysis (MDA) SHALL:
+- Admit all domains equally when evidence of influence is present
+- Weight domains dynamically based on observed impact, not category
+- Allow symbolic, mythic, and non-material domains to participate fully in analysis
+- Detect synchronicity without imposing explanatory priors
+
+MDA domains may not suppress or down-rank signals due to epistemic bias.
+
+### VI) Governance Role (Restricted)
+Governance exists solely to:
+- Preserve provenance and traceability
+- Enforce determinism and rerun stability
+- Prevent hidden coupling or feedback corruption
+- Maintain transparency of assumptions
+
+Governance SHALL NOT:
+- Filter domains based on plausibility
+- Enforce materialist or rationalist priors
+- Declare any domain invalid
+
+### VII) TVM and Oracle Integration
+The Total Vector Map (TVM) remains the canonical skeleton of Oracle data.
+
+All domains feed into TVM vectors equally.  
+Vector salience emerges from observed influence and convergence, not preassigned hierarchy.
+
+### VIII) Canon Supersession
+This amendment supersedes any prior language implying:
+- Tiered legitimacy of domains
+- Skeptical or orthodoxy-based gating
+- Hierarchical epistemic filtering
+
+Abraxas is canonically defined as a  
+NON-EXCLUSIONARY SYMBOLIC OBSERVATION AND COHERENCE SYSTEM.
+
+### IX) Canon Seal
+This update is sealed as CANON-ACTIVE.
+
+The system observes.  
+The system correlates.  
+The system does not prejudge reality.
+
+SEALED — CANON-ACTIVE
+
+This locks the posture before we proceed.  
+Next step can safely be technical (influence metrics, synchronicity scoring, or execution wiring) without reopening doctrine.
+
+---
+
+## 2026-01-02 — Abraxas Canon Extension — Influence Detection & Synchronicity Framework Integration
+**Status:** CANON-ACTIVE  
+**Effective Date:** 2026-01-02  
+**Scope:** Total Vector Map (TVM), Multi-Domain Analysis (MDA), Oracle Signal Layer, ABX-Runes, Influence & Synchronicity Evaluation
+
+### I) Purpose
+This update formalizes how Abraxas detects INFLUENCE and SYNCHRONICITY across all domains, without asserting causation, enforcing ontology, or privileging any category of data.
+
+It completes the transition from static observation to dynamic, evidence-weighted coherence analysis.
+
+### II) Influence Definition (Canon)
+Influence is defined as:  
+OBSERVABLE, REPEATABLE CHANGE in one or more TVM vectors that temporally aligns with activity in a given domain.
+
+Influence does NOT imply causation, explanation, or truth.  
+It implies salience.
+
+### III) Domain-Agnostic Influence Metrics
+All domains are evaluated using the same Influence Detection Metrics (IDM):
+
+1. **Cross-Vector Perturbation (CVP)**  
+   Measures whether activity in a domain coincides with deviations across multiple TVM vectors.
+2. **Temporal Lead–Lag Score (TLL)**  
+   Measures whether a domain consistently precedes or follows changes elsewhere.
+3. **Recurrence Density (RD)**  
+   Measures repetition of patterns across time, cycles, or calendar structures.
+4. **Cross-Domain Echo Count (CDEC)**  
+   Measures how many independent domains reflect the same pattern.
+5. **Residual Reduction Score (RRS)**  
+   Measures whether inclusion of the domain reduces unexplained variance in MDA outputs.
+
+No single metric is decisive.  
+Influence emerges from composite behavior.
+
+### IV) Influence Composite Score (ICS)
+Influence is represented as a vector-valued composite:
+
+`ICS(domain) = { CVP, TLL, RD, CDEC, RRS }`
+
+ICS determines dynamic domain weight inside MDA.  
+ICS does not authorize prediction or causal claims.
+
+### V) Synchronicity Definition (Canon)
+Synchronicity is defined as:  
+TEMPORAL AND SYMBOLIC CONVERGENCE across independent domains that exceeds baseline coincidence.
+
+Synchronicity is an observation of alignment, not an explanation.
+
+### VI) Synchronicity Metrics
+Synchronicity is evaluated using the following metrics:
+
+1. **Temporal Coincidence Index (TCI)**
+2. **Symbolic Isomorphism Score (SIS)**
+3. **Cycle Phase Alignment (CPA)**
+4. **Rarity-Adjusted Convergence (RAC)**
+5. **Persistence Under Rerun (PUR)**
+
+Synchronicity must persist under deterministic rerun to be considered valid.
+
+### VII) ABX-Runes (Ratified)
+The following ABX-Runes are now canonical:
+
+- **ABX-INFLUENCE_DETECT**  
+  Computes Influence Composite Scores (ICS) for all domains.
+- **ABX-INFLUENCE_WEIGHT**  
+  Converts ICS into dynamic domain weights (non-causal).
+- **ABX-SYNCHRONICITY_MAP**  
+  Constructs Synchronicity Envelopes from multi-domain convergence.
+- **ABX-COHESION_SCORE**  
+  Scores symbolic and temporal cohesion across domains.
+- **ABX-NO_CAUSAL_ASSERT**  
+  Prohibits causal language or inference at this stage.
+- **ABX-NO_DOMAIN_PRIOR**  
+  Enforces equal a priori weighting across all domains.
+
+All runes operate in SHADOW mode unless explicitly promoted via governance.
+
+### VIII) MDA Execution Flow (Updated)
+Canonical execution order is now:
+
+Sources  
+→ Metrics (Shadow)  
+→ TVM Vector Framing  
+→ ABX-INFLUENCE_DETECT  
+→ Dynamic Domain Weighting  
+→ ABX-SYNCHRONICITY_MAP  
+→ MDA Domain Graph  
+→ Oracle Output (Mode-dependent)
+
+Any deviation from this flow is non-canonical.
+
+### IX) Oracle Function (Clarified)
+The Oracle is a COHERENCE AND SYNCHRONICITY ENGINE.
+
+It reports:
+- What aligns
+- What clusters
+- What recurs
+- What converges across domains
+
+It does not, by default:
+- Assert causation
+- Declare mechanisms
+- Privilege any ontology
+
+### X) Canon Seal
+This update is sealed as CANON-ACTIVE.
+
+Abraxas now possesses a lawful, domain-agnostic mechanism for detecting influence and synchronicity across reality’s full expressive range.
+
+SEALED — CANON-ACTIVE

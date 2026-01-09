@@ -23,6 +23,10 @@ Abraxas is the symbolic intelligence engine of AAL, focused on coherence, foreca
 - Inputs: ResonanceFrames with text, metrics, tags.
 - Outputs: ResonanceFrames with added forecasts, probabilities, and symbolic tags.
 
+## Oracle Shadow Hooks
+- On oracle execution, ABX-GT may be invoked (if installed) as a shadow-only overlay.
+- Attach the report under `oracle.shadow.abx_gt` without altering forecasts, routing, or weights.
+
 ## Relationship to AAL-Core
 Abraxas is a first-class module connected through the AAL Hub and ResonanceFrame schema.
 

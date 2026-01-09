@@ -1,0 +1,20 @@
+{
+  "single_token": [
+    "coordlock",
+    "payofffog",
+    "credtrap",
+    "signalburn",
+    "exitgrid",
+    "trustsnap"
+  ],
+  "compound": [
+    "narrative hold",
+    "hidden player",
+    "panic equilibrium",
+    "cheap signal"
+  ],
+  "rules": {
+    "single_token": "single_token values must be a single token",
+    "compound": "compound terms are tracked separately"
+  }
+}

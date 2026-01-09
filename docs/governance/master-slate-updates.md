@@ -4,6 +4,22 @@ Append-only ledger of master slate updates reflecting repository delta ingest an
 
 ---
 
+## 2026-01-03 — ABX-GT Overlay v0.1 (Canon-Shadow)
+**Timezone:** America/Los_Angeles  
+**Mode:** Append-only  
+**Scope:** ABX-GT overlay subsystem (shadow observation)
+
+### 1) Canon Record
+- **ABX-GT Overlay v0.1 (Canon-Shadow)**
+  - GTVector.v0 schema (deterministic simulation vector contract).
+  - VectorPack v0.1 with 10 canonical vectors.
+  - Golden gates: 12-run invariance, bounds, missing-input not_computable, rent-payment.
+  - AALmanac hooks: single-token + compound categories, slang context-shift allowed.
+  - Strict lane separation: SHADOW-only until governance promotion.
+
+### 2) Master Slate — Effective State Summary (after ingest)
+- Overlays / Optional Modules: **ABX-GT Overlay v0.1 (Canon-Shadow)** — deterministic game-theory vector pack + shadow metrics.
+
 ## 2026-01-02 — Repo + Canon Delta Ingest
 **Timezone:** America/Los_Angeles  
 **Mode:** Append-only  

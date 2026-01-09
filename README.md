@@ -1,5 +1,5 @@
 # Applied Alchemy Labs (AAL) – Ecosystem Specification & Architecture Overview
-**Version:** 1.0
+**Version:** 1.1.3
 **Maintainer:** Daniel K. Meyer / Applied Alchemy Labs
 **License:** MIT
 

@@ -1,5 +1,9 @@
 # AAL Ecosystem – Changelog
 
+## [1.1.3] – 2026-01-03
+### Added
+- Added ABX-GT overlay v0.1 (Canon-Shadow): GTVector schema, vector pack, golden tests, runner skeleton, and AALmanac hooks.
+
 ## [1.1.2] – 2026-01-02
 ### Added
 - Canon diff gate extension for repo scan script and canon ledger updates.
